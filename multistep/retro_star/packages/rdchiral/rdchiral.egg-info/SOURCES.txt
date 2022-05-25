@@ -1,0 +1,7 @@
+README.md
+setup.py
+rdchiral.egg-info/PKG-INFO
+rdchiral.egg-info/SOURCES.txt
+rdchiral.egg-info/dependency_links.txt
+rdchiral.egg-info/top_level.txt
+test/test_rdchiral.py

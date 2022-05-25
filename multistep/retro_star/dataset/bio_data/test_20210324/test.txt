@@ -1,0 +1,8 @@
+target	building block
+CC1=C[C@]2(C)[C@@H](C)CC[C@@H]3[C@@]1(O)[C@@H](O)CC[C@@]32O	CC(C)=CCC/C(C)=C/CC/C(C)=C/COP(=O)(O)OP(=O)(O)O
+O=C1C(C2C(=O)Nc3ccccc32)=Nc2ccccc21	N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O
+Cc1ccc2c(c1O)NC(O)C1CC(/C=C/C(N)=O)=CN1C2=O	N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O.N[C@@H](Cc1ccc(O)cc1)C(=O)O
+CC1(O)Cc2cc3c(c(O)c2C(O)C1)C(=O)c1c(O)ccc(O)c1C3=O	*C(=O)CC(=O)O
+COC1=C(C)C(=O)c2c(cc3c(c2O)C(C)(CCC=C(C)C)C(C)O3)C1=O	*C(=O)C
+CC1(C)C2=Nc3ccccc3[C@]2(O)C[C@@]23NC(=O)[C@]4(CCCN4C2=O)C[C@H]13	N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O.O=C(O)[C@@H]1CCCN1
+COc1ccc2c3c([nH]c2c1)[C@H](C=C(C)C)N1C(=O)[C@@H]2CCCN2C(=O)[C@@H]1C3	N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O.O=C(O)[C@@H]1CCCN1

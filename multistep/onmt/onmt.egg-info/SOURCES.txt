@@ -1,0 +1,5 @@
+setup.py
+onmt.egg-info/PKG-INFO
+onmt.egg-info/SOURCES.txt
+onmt.egg-info/dependency_links.txt
+onmt.egg-info/top_level.txt

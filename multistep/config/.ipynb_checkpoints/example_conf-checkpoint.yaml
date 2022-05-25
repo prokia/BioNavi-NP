@@ -1,0 +1,27 @@
+target_mol: 'O=C1CCCC2C3CC(CN12)C1CCCCN1C3
+'
+gpu: 0
+expansion_topk: 50
+route_topk: 5
+iterations: 100
+
+use_value_fn: True
+value_fn_model_path: './retro_star/saved_models/best_epoch_final_4.pt'
+fp_dim: 2048
+
+buliding_block_path: './retro_star/dataset/bio_data/bio_building_blocks_all/building_block.csv'
+one_step_model_type: 'onmt'
+mlp_templates_path: './one_step_model/template_rules_1.dat'
+one_step_model_path: [
+# '../singlestep/checkpoints/np-like/model_step_30000.pt',
+'../singlestep/checkpoints/np-like/model_step_50000.pt',
+'../singlestep/checkpoints/np-like/model_step_80000.pt',
+# '../singlestep/checkpoints/np-like/model_step_100000.pt'
+]
+
+# params for onmt one step model
+beam_size: 20
+tokenizer: 'char'
+
+viz: True
+viz_dir: 'viz/'
