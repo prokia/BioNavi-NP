@@ -1,5 +1,7 @@
 #### Introduction
-Source code for the paper "BioNavi-NP: Biosynthesis Navigator for Natural Products".
+Source code for the paper "Deep Learning Driven Biosynthesis Pathways Navigation for Natural Products with  BioNavi-NP". (Soon to be published in *Nature Communication*)
+
+![bionavi](Image/bionavi.png)
 
 ####  Setup
 BioNavi-NP requires anaconda with python 3.7 or later, cudatoolkit=11.1. 
