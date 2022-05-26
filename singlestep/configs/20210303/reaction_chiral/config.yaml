@@ -1,0 +1,63 @@
+# onmt config
+save_data: dataset/20210302/reaction_chiral/
+src_vocab: vocab/reaction_chiral/mol.vocab.src
+tgt_vocab: vocab/reaction_chiral/mol.vocab.tgt
+overwrite: True
+
+data:
+    train:
+        path_src: dataset/20210302/reaction_chiral/reaction_chiral-src.txt 
+        path_tgt: dataset/20210302/reaction_chiral/reaction_chiral-tgt.txt
+#    valid:
+#        path_src: mol_trans/all_train/new-src-val.txt
+#        path_tgt: mol_trans/all_train/new-tgt-val.txt
+
+share_vocab: 'true'
+
+# train_from: mol_trans/model/np_step_200000.pt
+save_model: checkpoints/reaction_chiral
+save_checkpoint_steps: 10000
+keep_checkpoint: 40
+seed: 42
+train_steps: 300000
+warmup_steps: 8000
+report_every: 2000
+
+decoder_type: transformer
+encoder_type: transformer
+word_vec_size: 256
+rnn_size: 256
+layers: 4
+transformer_ff: 2048
+heads: 8
+
+position_encoding: 'true'
+share_embeddings: 'true'
+global_attention: general
+global_attention_function: softmax
+self_attn_type: scaled-dot
+
+accum_count: 4
+optim: adam
+adam_beta1: 0.9
+adam_beta2: 0.998
+decay_method: noam
+learning_rate: 2.0
+max_grad_norm: 0.0
+
+batch_size: 2048
+batch_type: tokens
+normalization: tokens
+dropout: 0.1
+label_smoothing: 0.0
+
+max_generator_batches: 32
+
+param_init: 0.0
+param_init_glorot: 'true'
+position_encoding: 'true'
+world_size: 2
+master_port: 12976
+gpu_ranks: 
+- 
+- 
