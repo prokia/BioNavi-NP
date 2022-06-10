@@ -99,3 +99,9 @@ Our work on BioNavi-NP features an evaluation on our test-set. We automated this
 python run_batch_by_building_blocks.py
 ```
 The whole process takes around 17 hours on four GPU (Nvidia RTX3090). One could modify the data_path and building_block_path in the script according to their own installation path. 
+
+
+#### Citation
+
+Please cite the following paper if you use this code in your work.
+Zheng, S., Zeng, T., Li, C. et al. Deep learning driven biosynthetic pathways navigation for natural products with BioNavi-NP. Nat Commun 13, 3342 (2022). https://doi.org/10.1038/s41467-022-30970-9
