@@ -1,5 +1,6 @@
 #### Introduction
-Source code for the paper "Deep Learning Driven Biosynthesis Pathways Navigation for Natural Products with  BioNavi-NP". (Soon to be published in *Nature Communication*)
+Source code for the paper "Deep Learning Driven Biosynthesis Pathways Navigation for Natural Products with  BioNavi-NP" in *[Nature Communication](https://www.nature.com/articles/s41467-022-30970-9)*. The server can be found [here](http://biopathnavi.qmclab.com/).
+
 
 ![bionavi](Image/bionavi.png)
 
